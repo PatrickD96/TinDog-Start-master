@@ -73,8 +73,9 @@ h3 {
 
 
 .fa-solid {
-    margin: auto 50%;
-    width: 126px;
-    height: 126px;
     color: #ff4c68;
+    /*
+    Con fontawesome le dimensioni vanno date tramite font-size
+    */
+    font-size: 4rem; /* 2.5rem significa 2.5 root element ovvero il body, che di solito di base è 16px, significa 16 x 2.5 = 40px */
 }
